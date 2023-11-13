@@ -4,10 +4,16 @@
 # Escreva mais um código que resolva o mesmo problema, mas dessa vez usando o laço de repetição 'while'.
 # Como desafio, imprima eles em ordem decrescente (20, 19, 18...)
 
-NUMERO = 20
+""" NUMERO = 20
 for i in range(NUMERO,0,-1):
     if (i == 13):
         continue
     if (i == 0):
         break
-    print(f"Andar {i}")
+    print(f"Andar {i}") """
+
+
+numero = 20
+for numero in range(numero,0,-1):
+    if numero != 13:
+        print(f"Andar {numero}")
